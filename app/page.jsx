@@ -332,6 +332,137 @@ export default function LandingPage() {
             </div>
           </div>
         </div>
+        <div className='p-8 bg-white rounded-lg shadow-lg'>
+          <div className='flex flex-row justify-between '>
+            <div>
+              <img src='/images/logo-upwork.png' alt='' />
+            </div>
+            <div className='flex flex-col w-96'>
+              <div>
+                <p className='pb-4 text-xl font-semibold text-left'>
+                  Sr. Frontend Developer
+                </p>
+              </div>
+              <div>
+                <ul className='text-left list-disc list-inside text-[#4B5563] '>
+                  <li>Sed quis justo ac magna.</li>
+                  <li>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </li>
+                  <li>Sed quis justo ac magna.</li>
+                  <li>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div>
+              <p>Jul 2017 - Oct 2021</p>
+            </div>
+          </div>
+        </div>
+        <div className='p-8 bg-white rounded-lg shadow-lg'>
+          <div className='flex flex-row justify-between '>
+            <div>
+              <img src='/images/logo-upwork.png' alt='' />
+            </div>
+            <div className='flex flex-col w-96'>
+              <div>
+                <p className='pb-4 text-xl font-semibold text-left'>
+                  Sr. Frontend Developer
+                </p>
+              </div>
+              <div>
+                <ul className='text-left list-disc list-inside text-[#4B5563] '>
+                  <li>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div>
+              <p>Dec 2015 - May 2017</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/*  */}
+      <div className='flex flex-col gap-12 text-center  px-[17rem] py-24  bg-[#F9FAFB]'>
+        <div className='flex justify-center'>
+          <h1 className='rounded-full bg-[#E5E7EB] max-w-max h-auto px-5 py-2 font-semibold text-xl'>
+            Work
+          </h1>
+        </div>
+        <div>
+          <p>Some of the noteworthy projects I have built:</p>
+        </div>
+        <div className='grid grid-cols-2'>
+          <div>
+            <div>
+              <img src='' alt='' />
+            </div>
+          </div>
+          <div>
+            {" "}
+            <div className='flex flex-col gap-6'>
+              <div>
+                <h1>Fiskil</h1>
+              </div>
+              <div>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante
+                  ipsum primis in faucibus orci luctus et ultrices posuere
+                  cubilia curae.
+                </p>
+              </div>
+              <div>
+                <div>
+                  <h3></h3>
+                </div>
+                <div>
+                  <h3></h3>
+                </div>
+                <div>
+                  <h3></h3>
+                </div>
+                <div>
+                  <h3></h3>
+                </div>
+                <div>
+                  <h3></h3>
+                </div>
+                <div>
+                  <h3></h3>
+                </div>
+                <div>
+                  <h3></h3>
+                </div>
+                <div>
+                  <h3></h3>
+                </div>
+                <div>
+                  <h3></h3>
+                </div>
+                <div>
+                  <h3></h3>
+                </div>
+              </div>
+              <div>
+                <h3></h3>
+              </div>
+            </div>
+          </div>
+          <div>3</div>
+          <div>
+            <img src='' alt='' />
+          </div>
+          <div>
+            <img src='' alt='' />
+          </div>
+          <div>6</div>
+        </div>
       </div>
     </>
   );
