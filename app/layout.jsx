@@ -2,6 +2,7 @@
 import Header from "../components/Header";
 import { inter } from "./font";
 import "./global.css";
+import Footer from "./../components/Footer";
 export default function RootLayout({ children }) {
   return (
     <html lang='en' className={inter.variable}>
@@ -9,8 +10,10 @@ export default function RootLayout({ children }) {
         <header className='px-[4.2rem]'>
           <Header />
         </header>
-        <main>{children}</main>
-        <footer></footer>
+        <main className='grow'>{children}</main>
+        <footer>
+          <Footer />
+        </footer>
       </body>
     </html>
   );

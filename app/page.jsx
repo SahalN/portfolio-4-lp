@@ -388,9 +388,9 @@ export default function LandingPage() {
         </div>
       </div>
       {/*  */}
-      <div className='flex flex-col gap-12 text-center  px-[17rem] py-24  bg-[#F9FAFB]'>
+      <div className='flex flex-col gap-12 text-center  px-[4.2rem] py-24  bg-[#F9FAFB]'>
         <div className='flex justify-center'>
-          <h1 className='rounded-full bg-[#E5E7EB] max-w-max h-auto px-5 py-2 font-semibold text-xl'>
+          <h1 className='rounded-full bg-[#E5E7EB] max-w-max h-auto px-5 py-2 font-normal text-sm'>
             Work
           </h1>
         </div>
@@ -398,70 +398,351 @@ export default function LandingPage() {
           <p>Some of the noteworthy projects I have built:</p>
         </div>
         <div className='grid grid-cols-2'>
-          <div>
+          <div className='p-12 place-self-center'>
             <div>
-              <img src='' alt='' />
+              <img src='/images/Picture.png' alt='' />
             </div>
           </div>
-          <div>
-            {" "}
-            <div className='flex flex-col gap-6'>
+          <div className='p-12 place-self-center'>
+            <div className='flex flex-col justify-center gap-6 text-left '>
               <div>
-                <h1>Fiskil</h1>
+                <h1 className='font-semibold'>Fiskil</h1>
               </div>
               <div>
-                <p>
+                <p className='text-base'>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante
                   ipsum primis in faucibus orci luctus et ultrices posuere
                   cubilia curae.
                 </p>
               </div>
-              <div>
+              <div className='flex flex-row flex-wrap gap-2'>
                 <div>
-                  <h3></h3>
+                  <h3 className='rounded-full bg-[#E5E7EB]  text-[#4B5563] max-w-max h-auto px-5 py-2 font-normal text-sm'>
+                    React
+                  </h3>
                 </div>
                 <div>
-                  <h3></h3>
+                  <h3 className='rounded-full bg-[#E5E7EB]  text-[#4B5563] max-w-max h-auto px-5 py-2 font-normal text-sm'>
+                    Next.js
+                  </h3>
                 </div>
                 <div>
-                  <h3></h3>
+                  <h3 className='rounded-full bg-[#E5E7EB]  text-[#4B5563] max-w-max h-auto px-5 py-2 font-normal text-sm'>
+                    Typescript
+                  </h3>
                 </div>
                 <div>
-                  <h3></h3>
+                  <h3 className='rounded-full bg-[#E5E7EB]  text-[#4B5563] max-w-max h-auto px-5 py-2 font-normal text-sm'>
+                    Nest.js
+                  </h3>
                 </div>
                 <div>
-                  <h3></h3>
+                  <h3 className='rounded-full bg-[#E5E7EB]  text-[#4B5563] max-w-max h-auto px-5 py-2 font-normal text-sm'>
+                    PostgreSQL
+                  </h3>
                 </div>
                 <div>
-                  <h3></h3>
+                  <h3 className='rounded-full bg-[#E5E7EB]  text-[#4B5563] max-w-max h-auto px-5 py-2 font-normal text-sm'>
+                    Tailwindcss
+                  </h3>
                 </div>
                 <div>
-                  <h3></h3>
+                  <h3 className='rounded-full bg-[#E5E7EB]  text-[#4B5563] max-w-max h-auto px-5 py-2 font-normal text-sm'>
+                    Figma
+                  </h3>
                 </div>
                 <div>
-                  <h3></h3>
+                  <h3 className='rounded-full bg-[#E5E7EB]  text-[#4B5563] max-w-max h-auto px-5 py-2 font-normal text-sm'>
+                    Cypress
+                  </h3>
                 </div>
                 <div>
-                  <h3></h3>
+                  <h3 className='rounded-full bg-[#E5E7EB]  text-[#4B5563] max-w-max h-auto px-5 py-2 font-normal text-sm'>
+                    Storybook
+                  </h3>
                 </div>
                 <div>
-                  <h3></h3>
+                  <h3 className='rounded-full bg-[#E5E7EB]  text-[#4B5563] max-w-max h-auto px-5 py-2 font-normal text-sm'>
+                    Git
+                  </h3>
                 </div>
               </div>
               <div>
-                <h3></h3>
+                <img src='/images/open.png' alt='' />
               </div>
             </div>
           </div>
-          <div>3</div>
-          <div>
-            <img src='' alt='' />
+          <div className='p-12 place-self-center'>
+            <div className='flex flex-col justify-center gap-6 text-left '>
+              <div>
+                <h1 className='font-semibold'>Fiskil</h1>
+              </div>
+              <div>
+                <p className='text-base'>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante
+                  ipsum primis in faucibus orci luctus et ultrices posuere
+                  cubilia curae.
+                </p>
+              </div>
+              <div className='flex flex-row flex-wrap gap-2'>
+                <div>
+                  <h3 className='rounded-full bg-[#E5E7EB]  text-[#4B5563] max-w-max h-auto px-5 py-2 font-normal text-sm'>
+                    React
+                  </h3>
+                </div>
+                <div>
+                  <h3 className='rounded-full bg-[#E5E7EB]  text-[#4B5563] max-w-max h-auto px-5 py-2 font-normal text-sm'>
+                    Next.js
+                  </h3>
+                </div>
+                <div>
+                  <h3 className='rounded-full bg-[#E5E7EB]  text-[#4B5563] max-w-max h-auto px-5 py-2 font-normal text-sm'>
+                    Typescript
+                  </h3>
+                </div>
+                <div>
+                  <h3 className='rounded-full bg-[#E5E7EB]  text-[#4B5563] max-w-max h-auto px-5 py-2 font-normal text-sm'>
+                    Nest.js
+                  </h3>
+                </div>
+                <div>
+                  <h3 className='rounded-full bg-[#E5E7EB]  text-[#4B5563] max-w-max h-auto px-5 py-2 font-normal text-sm'>
+                    PostgreSQL
+                  </h3>
+                </div>
+                <div>
+                  <h3 className='rounded-full bg-[#E5E7EB]  text-[#4B5563] max-w-max h-auto px-5 py-2 font-normal text-sm'>
+                    Tailwindcss
+                  </h3>
+                </div>
+                <div>
+                  <h3 className='rounded-full bg-[#E5E7EB]  text-[#4B5563] max-w-max h-auto px-5 py-2 font-normal text-sm'>
+                    Figma
+                  </h3>
+                </div>
+                <div>
+                  <h3 className='rounded-full bg-[#E5E7EB]  text-[#4B5563] max-w-max h-auto px-5 py-2 font-normal text-sm'>
+                    Cypress
+                  </h3>
+                </div>
+                <div>
+                  <h3 className='rounded-full bg-[#E5E7EB]  text-[#4B5563] max-w-max h-auto px-5 py-2 font-normal text-sm'>
+                    Storybook
+                  </h3>
+                </div>
+                <div>
+                  <h3 className='rounded-full bg-[#E5E7EB]  text-[#4B5563] max-w-max h-auto px-5 py-2 font-normal text-sm'>
+                    Git
+                  </h3>
+                </div>
+              </div>
+              <div>
+                <img src='/images/open.png' alt='' />
+              </div>
+            </div>
           </div>
-          <div>
-            <img src='' alt='' />
+          <div className='p-12 place-self-center'>
+            <div>
+              <img src='/images/Picture.png' alt='' />
+            </div>
           </div>
-          <div>6</div>
+          <div className='p-12 place-self-center'>
+            <div>
+              <img src='/images/Picture.png' alt='' />
+            </div>
+          </div>
+          <div className='p-12 place-self-center'>
+            <div className='flex flex-col justify-center gap-6 text-left '>
+              <div>
+                <h1 className='font-semibold'>Fiskil</h1>
+              </div>
+              <div>
+                <p className='text-base'>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante
+                  ipsum primis in faucibus orci luctus et ultrices posuere
+                  cubilia curae.
+                </p>
+              </div>
+              <div className='flex flex-row flex-wrap gap-2'>
+                <div>
+                  <h3 className='rounded-full bg-[#E5E7EB]  text-[#4B5563] max-w-max h-auto px-5 py-2 font-normal text-sm'>
+                    React
+                  </h3>
+                </div>
+                <div>
+                  <h3 className='rounded-full bg-[#E5E7EB]  text-[#4B5563] max-w-max h-auto px-5 py-2 font-normal text-sm'>
+                    Next.js
+                  </h3>
+                </div>
+                <div>
+                  <h3 className='rounded-full bg-[#E5E7EB]  text-[#4B5563] max-w-max h-auto px-5 py-2 font-normal text-sm'>
+                    Typescript
+                  </h3>
+                </div>
+                <div>
+                  <h3 className='rounded-full bg-[#E5E7EB]  text-[#4B5563] max-w-max h-auto px-5 py-2 font-normal text-sm'>
+                    Nest.js
+                  </h3>
+                </div>
+                <div>
+                  <h3 className='rounded-full bg-[#E5E7EB]  text-[#4B5563] max-w-max h-auto px-5 py-2 font-normal text-sm'>
+                    PostgreSQL
+                  </h3>
+                </div>
+                <div>
+                  <h3 className='rounded-full bg-[#E5E7EB]  text-[#4B5563] max-w-max h-auto px-5 py-2 font-normal text-sm'>
+                    Tailwindcss
+                  </h3>
+                </div>
+                <div>
+                  <h3 className='rounded-full bg-[#E5E7EB]  text-[#4B5563] max-w-max h-auto px-5 py-2 font-normal text-sm'>
+                    Figma
+                  </h3>
+                </div>
+                <div>
+                  <h3 className='rounded-full bg-[#E5E7EB]  text-[#4B5563] max-w-max h-auto px-5 py-2 font-normal text-sm'>
+                    Cypress
+                  </h3>
+                </div>
+                <div>
+                  <h3 className='rounded-full bg-[#E5E7EB]  text-[#4B5563] max-w-max h-auto px-5 py-2 font-normal text-sm'>
+                    Storybook
+                  </h3>
+                </div>
+                <div>
+                  <h3 className='rounded-full bg-[#E5E7EB]  text-[#4B5563] max-w-max h-auto px-5 py-2 font-normal text-sm'>
+                    Git
+                  </h3>
+                </div>
+              </div>
+              <div>
+                <img src='/images/open.png' alt='' />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/*  */}
+      <div className='flex flex-col gap-12 text-center  px-[4.2rem] py-24  bg-[#F9FAFB]'>
+        <div className='flex justify-center'>
+          <h1 className='rounded-full bg-[#E5E7EB] max-w-max h-auto px-5 py-2 font-normal text-sm'>
+            Testimonials
+          </h1>
+        </div>
+        <div>
+          <p className='text-xl'>Nice things people have said about me:</p>
+        </div>
+        <div className='grid grid-cols-3 text-left gap-x-12 '>
+          <div className='flex flex-col gap-6 px-20 py-12'>
+            <div className='flex justify-center'>
+              <img src='/images/icon-avatar.png' alt='' />
+            </div>
+            <div>
+              <p>
+                “Job well done! I am really impressed. He is very very good at
+                what he does:) I would recommend Sagar and will rehire in the
+                future for Frontend development.”
+              </p>
+            </div>
+            <div className='pb-8 text-center'>
+              <h2 className='text-xl font-semibold'>John Doe</h2>
+              <p>Founder - xyz.com</p>
+            </div>
+          </div>
+          <div className='flex flex-col gap-6 px-20 py-12'>
+            <div className='flex justify-center'>
+              <img src='/images/icon-avatar.png' alt='' />
+            </div>
+            <div>
+              <p>
+                “Great guy, highly recommended for any COMPLEX front-end
+                development job! His skills are top-notch and he will be an
+                amazing addition to any team.”
+              </p>
+            </div>
+            <div className='pb-8 text-center'>
+              <h2 className='text-xl font-semibold'>John Doe</h2>
+              <p>Founder - abc.com</p>
+            </div>
+          </div>
+          <div className='flex flex-col gap-6 px-20 py-12'>
+            <div className='flex justify-center'>
+              <img src='/images/icon-avatar.png' alt='' />
+            </div>
+            <div>
+              <p>
+                “Sagar was extremely easy and pleasant to work with and he truly
+                cares about the project being a success. Sagar has a high level
+                of knowledge and was able to work on my MERN stack application
+                without any issues.”
+              </p>
+            </div>
+            <div className='pb-8 text-center'>
+              <h2 className='text-xl font-semibold'>John Doe</h2>
+              <p>Freelancer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/*  */}
+      <div className='flex flex-col gap-12 text-center  px-[4.2rem] py-24  bg-[#F9FAFB]'>
+        <div className='px-[20rem] '>
+          <div className='flex justify-center '>
+            <h1 className='rounded-full bg-[#E5E7EB] max-w-max h-auto px-5 py-2 font-normal text-sm'>
+              Get in touch
+            </h1>
+          </div>
+          <div className='pt-4'>
+            <p className='text-base'>
+              What’s next? Feel free to reach out to me if you're looking for a
+              developer, have a query, or simply want to connect.
+            </p>
+          </div>
+        </div>
+        <div>
+          <div className='flex flex-row items-center justify-center gap-5'>
+            <div>
+              <img src='/images/message.png' alt='' />
+            </div>
+            <div>
+              <p className='text-4xl font-semibold'>reachsagarshah@gmail.com</p>
+            </div>
+            <div>
+              <img src='/images/button.png' alt='' />
+            </div>
+          </div>
+          <div className='flex flex-row items-center justify-center gap-5'>
+            <div>
+              <img src='/images/call.png' alt='' />
+            </div>
+            <div>
+              <p className='pt-4 text-4xl font-semibold'>+91 8980500565</p>
+            </div>
+            <div>
+              <img src='/images/button.png' alt='' />
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <p className='text-base'>
+              You may also find me on these platforms!
+            </p>
+          </div>
+          <div className='flex flex-row justify-center gap-2'>
+            <div>
+              <img src='/images/github.png' alt='' />
+            </div>
+            <div>
+              <img src='/images/twitter.png' alt='' />
+            </div>
+            <div>
+              <img src='/images/figma.png' alt='' />
+            </div>
+          </div>
         </div>
       </div>
     </>
